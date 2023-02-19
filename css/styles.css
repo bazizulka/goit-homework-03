@@ -44,7 +44,8 @@ ul {
     width: 100%;
      max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;}
+    padding: 0 15px;
+    padding-bottom: 120px;}
  
 
 .main-title-section {
@@ -64,8 +65,17 @@ ul {
     line-height: 1.072;
     padding-top: 188px;
 }
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+}
 .nav {
+    display: flex;
+    align-items: center;
     margin-bottom: 24px;
+    flex-grow: 1;
 }
 
 /* Logo */
@@ -79,6 +89,7 @@ ul {
     font-weight: 800;
     margin-left: 156px;
     margin-right: 76px;
+    gap: 76px;
 
 }
 
@@ -98,10 +109,16 @@ span {
 
 .brews-text {
     list-style: none;
+    display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .what-we-are-doing {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ul-contacts {
@@ -161,6 +178,7 @@ span {
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;
+    gap: 24px;
 }
 
 .nav-button:hover,
@@ -177,7 +195,9 @@ span {
 }
 
 .ul-head-menu {
+    display: flex;
     list-style: none;
+    gap: 40px;
 }
 
 .head-menu {
@@ -203,16 +223,31 @@ span {
 .our-team {padding: 120px 0px;}
 
 .ul-contacts {
+    display: flex;
     list-style: none;
+    gap: 40px;
 }
 
 .section-nav-button {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
 .album {
     list-style: none;
+    column-count: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.album-div{
+    column-count: 3;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;}
 
 .address {
     font-style: normal;
@@ -275,6 +310,10 @@ margin-right: 24px;
 .team-members {
     list-style: none;
     background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 .team-member {

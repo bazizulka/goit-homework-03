@@ -13,10 +13,7 @@
     --hero-background: #2E2F42;
     --white: #ffffff;
 }
-html{
-    box-sizing: border-box;
-}
-*,
+
 *::before,
 *::after {
     box-sizing: inherit;
@@ -34,24 +31,41 @@ body {
     h5,
     h6,
     p {
-    margin: 0;}
+    margin-top: 0px;}
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
      /* CONTAINER */
      .container {
-     width: 1128px;
-     padding-left: 156px;
-    padding-right: 156px
-    margin-left: auto;
-    margin-right: auto;}
-        
-}
+    display: inline-block;
+    width: 100%;
+     max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;}
+ 
 
+.main-title-section {
+    background-color: var(--brand-color);
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 .main-title {
+    margin-top: 0px;
+    margin-bottom: 48px;
     color: var(--white);
     background-color: var(--brand-color);
     list-style: none;
     text-align: center;
     font-size: 56px;
     line-height: 1.072;
+    padding-top: 188px;
+}
+.nav {
+    margin-bottom: 24px;
 }
 
 /* Logo */
@@ -63,6 +77,9 @@ body {
     font-size: 18px;
     line-height: 1.333;
     font-weight: 800;
+    margin-left: 156px;
+    margin-right: 76px;
+
 }
 
 span {
@@ -169,8 +186,9 @@ span {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    padding: 12px 24px 12px 24px;
+    margin-right: 40px;
 }
+.head-menu:last-child {margin-right: 0;}
 
 .head-menu:hover,
 .head-menu:focus {
@@ -179,8 +197,10 @@ span {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    padding: 12px 24px 12px 24px;
 }
+
+.section,
+.our-team {padding: 120px 0px;}
 
 .ul-contacts {
     list-style: none;
@@ -227,7 +247,13 @@ span {
     line-height: 1.2;
     font-weight: 500;
 }
+.description-list{
 
+margin-right: 24px;
+}
+.description-list:last-child {
+    margin-right: 0;
+}
 .description {
     color: var(--Text);
     font-size: 16px;

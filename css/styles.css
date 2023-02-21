@@ -42,11 +42,8 @@ ul {
      .container {
     display: inline-block;
     width: 100%;
-     max-width: 1128px;
-    margin: 0 auto;
-    padding: 0 15px;
-    padding-bottom: 120px;
-justify-content: center ;}
+     max-width: 1158px;
+    margin: 0 auto;}
  
 
 .main-title-section {
@@ -108,7 +105,6 @@ span {
     font-size: 18px;
     line-height: 1.333;
     font-weight: 800;
-    padding-left: 156px;
 }
 
 .brews-text {
@@ -354,19 +350,14 @@ margin-right: 24px;
 /*footer*/
 .footer {
     background-color: var(--brand-color);
-}
-.section-footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 156px;
 }
+
 .footer-text {
     color: var(--accent);
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
-    margin-right: 1020px;
-    margin-bottom: 100px;
-    padding-left: 156px;
     width: 264px;
-    height: 72px;
 }

@@ -24,23 +24,29 @@ body {
     font-family: 'Roboto', Sans-Serif;
     font-size: 16px;
     line-height: 1.5;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
+    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-top: 0px;}
-}
+
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+img {
+    display: block
+}
      /* CONTAINER */
      .container {
-    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
     width: 100%;
      max-width: 1158px;
     margin: 0 auto;}
@@ -49,6 +55,8 @@ ul {
 .main-title-section {
     background-color: var(--brand-color);
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 .main-title {
     margin-top: 0px;
@@ -59,23 +67,19 @@ ul {
     text-align: center;
     font-size: 56px;
     line-height: 1.072;
-    padding-top: 188px;
 }
 .nav-div{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     
 }
 .nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 24px;
-        padding-bottom: 24px;
     flex-grow: 1;
+    padding: 9px;
+    margin: -9px;
+    
 }
 
 /* Logo */
@@ -87,7 +91,6 @@ ul {
     font-size: 18px;
     line-height: 1.333;
     font-weight: 800;
-    margin-left: 156px;
     margin-right: 76px;
     gap: 76px;
 
@@ -110,16 +113,22 @@ span {
 .brews-text {
     list-style: none;
     display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .what-we-are-doing {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 }
+
+.what-li{
+    padding-right: 24px;
+}
+
+.what-li:last-child{padding-right: 0px;}
 
 .ul-contacts {
     list-style: none;
@@ -197,6 +206,8 @@ span {
 .ul-head-menu {
     display: flex;
     list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 40px;
 }
 
@@ -247,7 +258,8 @@ span {
     column-count: 3;
     gap: 24px;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 
 .address {
     font-style: normal;
@@ -274,6 +286,7 @@ span {
     line-height: 1.11;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .third-title {
@@ -281,8 +294,7 @@ span {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-    text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .visually-hidden {
     position: absolute;
@@ -327,10 +339,6 @@ margin-right: 24px;
     list-style: none;
     background-color: var(--white);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    padding-top: 32px;
 }
 
 .team-member {
@@ -338,6 +346,13 @@ margin-right: 24px;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    padding-top: 32px;
+}
+.team-members-class{
+    padding-right: 24px;
+}
+.team-members-class:last-child{
+    padding-right: 0px;
 }
 
 .member-profession {
@@ -352,7 +367,6 @@ margin-right: 24px;
     background-color: var(--brand-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
 }
 
 .footer-text {

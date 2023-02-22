@@ -51,8 +51,14 @@ img {
      max-width: 1158px;
     margin: 0 auto;}
  
-.header {border-bottom: solid;
-color: var(--accent);
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-bottom: solid;
+    color: var(--accent);
+    justify-content: space-between;
+    padding: 10px;
 }
 .main-title-section {
     background-color: var(--brand-color);
@@ -75,7 +81,6 @@ color: var(--accent);
     align-items: center;
     padding: 9px;
     margin: -9px;
-    justify-content: flex-start;
     
 }
 
@@ -89,7 +94,6 @@ color: var(--accent);
     line-height: 1.333;
     font-weight: 800;
     margin-right: 76px;
-    gap: 76px;
 
 }
 

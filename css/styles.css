@@ -50,6 +50,11 @@ img {
     width: 100%;
      max-width: 1158px;
     margin: 0 auto;}
+
+     .container-header {
+    display: flex;
+    justify-content: space-between;
+        }
  
 .header {
     display: flex;

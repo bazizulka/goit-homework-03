@@ -48,12 +48,17 @@ img {
     padding-right: 15px;
     padding-left: 15px;
     width: 100%;
-     max-width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;}
 
+    /* CONTAINER-HEADER */
      .container-header {
     display: flex;
     justify-content: space-between;
+        }
+        /* album-container */
+    .album-container {
+        display: flex;
         }
  
 .header {
@@ -247,22 +252,24 @@ span {
     justify-content: center;
     margin-bottom: 72px;
 }
-
+/*галерея*/
 .album {
-    list-style: none;
-    column-count: 3;
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
     align-items: center;
-    justify-content: center;
     gap: 24px;
+    padding-bottom: 48px;
 }
-.album-div{
-    column-count: 3;
-    
-    align-items: center;
-    justify-content: center;
+.album-list {
+    display: flex;
+    flex-basis: calc((100% - 20px) / 3);
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border: solid;
+    color: var(--accent);
 }
-
 .address {
     display: flex;
     font-style: normal;
@@ -326,19 +333,29 @@ margin-right: 24px;
     color: var(--text);
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
 }
-
+.h2-tail {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
 .pic-head {
     color: var(--text);
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-    text-align: center;
+}
+.description-div {
+    padding-left: 16px;
+    padding-bottom: 32px;
+;
+    
 }
 
 /*команда*/
 .our-team {
+    display: flex;
+    justify-content: center;
     background-color: var(--light);
 }
 

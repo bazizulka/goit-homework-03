@@ -32,7 +32,7 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0px;}
+    margin: 0px;}
 
 ul {
     margin: 0;
@@ -56,10 +56,13 @@ img {
     display: flex;
     justify-content: space-between;
         }
-        /* album-container */
+    /* album-container */
     .album-container {
         display: flex;
         }
+    /*nav-button-container*/
+    .nav-button-container{
+    }
  
 .header {
     display: flex;
@@ -68,13 +71,14 @@ img {
     border-bottom: solid;
     color: var(--accent);
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .main-title-section {
     background-color: var(--brand-color);
     text-align: center;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 }
 .main-title {
     margin-top: 0px;
@@ -89,8 +93,6 @@ img {
 .nav {
     display: flex;
     align-items: center;
-    padding: 9px;
-    margin: -9px;
     
 }
 
@@ -136,10 +138,15 @@ span {
 }
 
 .what-li{
-    padding-right: 24px;
+    margin-right: 24px;
 }
 
 .what-li:last-child{padding-right: 0px;}
+
+.section-what{
+    padding-bottom: 120px;
+    
+}
 
 /*button*/
 .order-service {
@@ -194,7 +201,6 @@ span {
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;
-    margin-right: 24px;
 }
 
 .nav-button:hover,
@@ -208,12 +214,14 @@ span {
     font-weight: 500;
     font-family: inherit;
 }
+.nav-button-li {
+    margin-right: 24px;
+
+}
 
 .ul-head-menu {
     display: flex;
     list-style: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
 }
 
@@ -251,6 +259,7 @@ span {
     align-items: center;
     justify-content: center;
     margin-bottom: 72px;
+    margin-top: -24px;
 }
 /*галерея*/
 .album {
@@ -258,21 +267,14 @@ span {
     flex-wrap: wrap;
     list-style: none;
     gap: 24px;
-    margin-bottom: 48px;
 }
 .album-list {
     flex-basis:calc((100% - 2*24px) / 3);
-    border-right: solid;
-    border-left: solid;
-    border-bottom: solid;
-    color: var(--accent);
 }
 .address {
     display: flex;
     font-style: normal;
     align-items: center;
-    padding: 9px;
-    margin: -9px;
     justify-content: flex-end;
 }
 
@@ -331,21 +333,21 @@ margin-right: 24px;
     font-size: 16px;
     line-height: 1.5;
 }
-.h2-tail {
-    padding-left: 16px;
-    padding-top: 32px;
-    padding-bottom: 8px;
-}
 .pic-head {
     color: var(--text);
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    padding-bottom: 8px;
 }
 .description-div {
     padding-left: 16px;
     padding-bottom: 32px;
-;
+    padding-top: 32px;
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    color: var(--accent);
     
 }
 
@@ -358,20 +360,19 @@ margin-right: 24px;
 
 .team-members {
     list-style: none;
-    background-color: var(--white);
     display: flex;
 }
 
 .team-member {
     color: var(--brand-color);
+    background-color: var(--white);
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
-    padding-top: 32px;
 }
 .team-members-class{
     background-color: var(--white);
-    padding-right: 24px;
+    margin-right: 24px;
 }
 .team-members-class:last-child{
     padding-right: 0px;
@@ -383,7 +384,10 @@ margin-right: 24px;
     line-height: 1.5;
     text-align: center;
 }
-
+.member-name-div {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
 /*footer*/
 .footer {
     background-color: var(--brand-color);
@@ -396,4 +400,5 @@ margin-right: 24px;
     font-size: 16px;
     line-height: 1.5;
     width: 264px;
+    margin-top: 16px;
 }

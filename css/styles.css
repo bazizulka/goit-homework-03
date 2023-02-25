@@ -61,8 +61,6 @@ img {
         display: flex;
         }
     /*nav-button-container*/
-    .nav-button-container{
-    }
  
 .header {
     display: flex;
@@ -338,7 +336,7 @@ margin-right: 24px;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .description-div {
     padding-left: 16px;
@@ -369,6 +367,8 @@ margin-right: 24px;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    padding-bottom: 8px;
+
 }
 .team-members-class{
     background-color: var(--white);
@@ -384,10 +384,11 @@ margin-right: 24px;
     line-height: 1.5;
     text-align: center;
 }
-.member-name-div {
+.member-div {
     padding-top: 32px;
-    padding-bottom: 8px;
-}
+    padding-bottom: 32px;}
+
+
 /*footer*/
 .footer {
     background-color: var(--brand-color);
